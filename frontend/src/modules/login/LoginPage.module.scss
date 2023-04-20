@@ -1,0 +1,37 @@
+.page {
+  display: grid;
+  grid-template-areas: "form view";
+  grid-template-columns: 1fr 3fr;
+
+
+
+  .loginForm {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem 2rem 2rem;
+
+    .header {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .subHeader {
+      color: grey;
+      margin-bottom: 2rem;
+    }
+
+    .submitButton {
+      margin-top: 2rem;
+      background-color: #0000AC;
+    }
+  }
+
+  .demoView {
+    grid-area: view;
+    background-color: #0000AC;
+    height: 100vh;
+    display: flex;
+
+  }
+}

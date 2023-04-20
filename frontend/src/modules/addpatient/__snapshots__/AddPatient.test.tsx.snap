@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Patients Page Renders the add patient page, matches snapshot 1`] = `
+{
+  "mockedNavigate": [MockFunction],
+  "renderResult": {
+    "asFragment": [Function],
+    "baseElement": <body>
+      <div>
+        <div
+          class="page"
+        >
+          <div>
+            Patient Register 
+            &gt;
+             Add Patient
+          </div>
+          <div
+            class="actionBar"
+          >
+            <div
+              class="header"
+            >
+              Add Patient
+            </div>
+            <div
+              class="actionMenu"
+            >
+              <div
+                class="actions"
+              >
+                <button
+                  class="button btn btn-outline-primary"
+                  data-testid="cancel-button"
+                  type="button"
+                >
+                  Cancel
+                </button>
+                <button
+                  class="button btn btn-primary"
+                  data-testid="save-button"
+                  type="button"
+                >
+                  Save
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="formWrapper"
+          >
+            <form
+              class="form"
+              data-testid="add-patient-form"
+            >
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  Record number
+                </label>
+                <div
+                  class="col-sm-8"
+                >
+                  <label
+                    class="form-label"
+                  >
+                    Record number will be assigned automatically when you save.
+                  </label>
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  First name
+                </label>
+                <div
+                  class="col-sm-6"
+                >
+                  <input
+                    class="form-control"
+                    data-testid="first-name-field"
+                  />
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  Last name
+                </label>
+                <div
+                  class="col-sm-6"
+                >
+                  <input
+                    class="form-control"
+                    data-testid="last-name-field"
+                  />
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                  for="date-of-birth"
+                >
+                  Date of birth
+                </label>
+                <div
+                  class="col-sm-6"
+                >
+                  <div
+                    class="react-datepicker-wrapper"
+                  >
+                    <div
+                      class="react-datepicker__input-container"
+                    >
+                      <span
+                        aria-live="polite"
+                        class="react-datepicker__aria-live"
+                        role="alert"
+                      />
+                      <input
+                        class="form-control"
+                        id="date-of-birth"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  Sex
+                </label>
+                <div
+                  class="sexButtons col-sm-6"
+                >
+                  <button
+                    class="btn btn-secondary"
+                    data-testid="male-button"
+                    type="button"
+                  >
+                    Male
+                  </button>
+                  <button
+                    class="btn btn-secondary"
+                    data-testid="female-button"
+                    type="button"
+                  >
+                    Female
+                  </button>
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  Diagnosis
+                </label>
+                <div
+                  class="col-sm-6"
+                >
+                  <input
+                    class="form-control"
+                    data-testid="diagnosis-field"
+                  />
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  Notes
+                </label>
+                <div
+                  class="col-sm-6"
+                >
+                  <textarea
+                    class="form-control"
+                    data-testid="notes-field"
+                    style="height: 7rem;"
+                  />
+                </div>
+              </div>
+              <div
+                class="group row"
+              >
+                <label
+                  class="form-label col-form-label col-sm-4"
+                >
+                  Phone number
+                </label>
+                <div
+                  class="col-sm-6"
+                >
+                  <input
+                    class="form-control"
+                    data-testid="phone-number-field"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </body>,
+    "container": <div>
+      <div
+        class="page"
+      >
+        <div>
+          Patient Register 
+          &gt;
+           Add Patient
+        </div>
+        <div
+          class="actionBar"
+        >
+          <div
+            class="header"
+          >
+            Add Patient
+          </div>
+          <div
+            class="actionMenu"
+          >
+            <div
+              class="actions"
+            >
+              <button
+                class="button btn btn-outline-primary"
+                data-testid="cancel-button"
+                type="button"
+              >
+                Cancel
+              </button>
+              <button
+                class="button btn btn-primary"
+                data-testid="save-button"
+                type="button"
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="formWrapper"
+        >
+          <form
+            class="form"
+            data-testid="add-patient-form"
+          >
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                Record number
+              </label>
+              <div
+                class="col-sm-8"
+              >
+                <label
+                  class="form-label"
+                >
+                  Record number will be assigned automatically when you save.
+                </label>
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                First name
+              </label>
+              <div
+                class="col-sm-6"
+              >
+                <input
+                  class="form-control"
+                  data-testid="first-name-field"
+                />
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                Last name
+              </label>
+              <div
+                class="col-sm-6"
+              >
+                <input
+                  class="form-control"
+                  data-testid="last-name-field"
+                />
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+                for="date-of-birth"
+              >
+                Date of birth
+              </label>
+              <div
+                class="col-sm-6"
+              >
+                <div
+                  class="react-datepicker-wrapper"
+                >
+                  <div
+                    class="react-datepicker__input-container"
+                  >
+                    <span
+                      aria-live="polite"
+                      class="react-datepicker__aria-live"
+                      role="alert"
+                    />
+                    <input
+                      class="form-control"
+                      id="date-of-birth"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                Sex
+              </label>
+              <div
+                class="sexButtons col-sm-6"
+              >
+                <button
+                  class="btn btn-secondary"
+                  data-testid="male-button"
+                  type="button"
+                >
+                  Male
+                </button>
+                <button
+                  class="btn btn-secondary"
+                  data-testid="female-button"
+                  type="button"
+                >
+                  Female
+                </button>
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                Diagnosis
+              </label>
+              <div
+                class="col-sm-6"
+              >
+                <input
+                  class="form-control"
+                  data-testid="diagnosis-field"
+                />
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                Notes
+              </label>
+              <div
+                class="col-sm-6"
+              >
+                <textarea
+                  class="form-control"
+                  data-testid="notes-field"
+                  style="height: 7rem;"
+                />
+              </div>
+            </div>
+            <div
+              class="group row"
+            >
+              <label
+                class="form-label col-form-label col-sm-4"
+              >
+                Phone number
+              </label>
+              <div
+                class="col-sm-6"
+              >
+                <input
+                  class="form-control"
+                  data-testid="phone-number-field"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>,
+    "debug": [Function],
+    "findAllByAltText": [Function],
+    "findAllByDisplayValue": [Function],
+    "findAllByLabelText": [Function],
+    "findAllByPlaceholderText": [Function],
+    "findAllByRole": [Function],
+    "findAllByTestId": [Function],
+    "findAllByText": [Function],
+    "findAllByTitle": [Function],
+    "findByAltText": [Function],
+    "findByDisplayValue": [Function],
+    "findByLabelText": [Function],
+    "findByPlaceholderText": [Function],
+    "findByRole": [Function],
+    "findByTestId": [Function],
+    "findByText": [Function],
+    "findByTitle": [Function],
+    "getAllByAltText": [Function],
+    "getAllByDisplayValue": [Function],
+    "getAllByLabelText": [Function],
+    "getAllByPlaceholderText": [Function],
+    "getAllByRole": [Function],
+    "getAllByTestId": [Function],
+    "getAllByText": [Function],
+    "getAllByTitle": [Function],
+    "getByAltText": [Function],
+    "getByDisplayValue": [Function],
+    "getByLabelText": [Function],
+    "getByPlaceholderText": [Function],
+    "getByRole": [Function],
+    "getByTestId": [Function],
+    "getByText": [Function],
+    "getByTitle": [Function],
+    "queryAllByAltText": [Function],
+    "queryAllByDisplayValue": [Function],
+    "queryAllByLabelText": [Function],
+    "queryAllByPlaceholderText": [Function],
+    "queryAllByRole": [Function],
+    "queryAllByTestId": [Function],
+    "queryAllByText": [Function],
+    "queryAllByTitle": [Function],
+    "queryByAltText": [Function],
+    "queryByDisplayValue": [Function],
+    "queryByLabelText": [Function],
+    "queryByPlaceholderText": [Function],
+    "queryByRole": [Function],
+    "queryByTestId": [Function],
+    "queryByText": [Function],
+    "queryByTitle": [Function],
+    "rerender": [Function],
+    "unmount": [Function],
+  },
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+}
+`;

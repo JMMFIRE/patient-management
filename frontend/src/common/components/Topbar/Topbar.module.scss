@@ -1,0 +1,58 @@
+
+
+.navbar {
+  grid-area: topbar;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+  border-bottom:  1px solid lightgray;
+
+  .brand {
+    padding: 0 .5rem 0 1rem;
+    width: 15rem;
+  }
+
+  @media (min-width: 60rem){
+    .search {
+      margin: 0 10rem 0 2rem;
+      max-width: 50rem;
+      width: 30%;
+    }
+  }
+
+  @media (max-width: 60rem) {
+    .search {
+      display: none;
+    }
+  }
+
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 38rem;
+    width: 35%;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+
+
+    .userDetails {
+      font-size: .75rem;
+      width: 10rem;
+      padding-right: 1rem;
+    }
+
+    .currentDate {
+      width: 10rem;
+      padding-right: 1rem;
+    }
+
+    .icons {
+      width: 9rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.5rem;
+    }
+  }
+}

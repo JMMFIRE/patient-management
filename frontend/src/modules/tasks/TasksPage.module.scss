@@ -1,0 +1,21 @@
+.page {
+  margin: 1rem 0 0 2rem;
+  display: grid;
+  grid-template-areas: 'taskList currentTask';
+  grid-auto-columns: 1fr 1.15fr;
+
+  .header {
+    font-size: .9rem;
+    grid-area: taskList;
+  }
+
+  .taskListView {
+    grid-area: taskList;
+    margin-top: 1rem;
+  }
+
+  .currentTaskView {
+    padding-top: 1rem;
+    grid-area: currentTask;
+  }
+}

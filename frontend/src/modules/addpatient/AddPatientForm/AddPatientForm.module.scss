@@ -1,0 +1,31 @@
+.formWrapper {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 85rem) {
+    .form{
+      width: 45rem;
+    }
+  }
+
+  @media (min-width: 85rem) {
+    .form {
+      width: 70rem;
+    }
+  }
+
+  .form {
+    background-color: white;
+
+
+    .group {
+      margin: 2rem 2rem 2rem 2rem;
+
+      .sexButtons {
+        display: flex;
+        justify-content: space-between;
+        width: 12rem;
+      }
+    }
+  }
+}

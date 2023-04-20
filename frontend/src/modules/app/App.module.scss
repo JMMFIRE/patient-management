@@ -1,0 +1,16 @@
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-template-rows: 5rem 100rem;
+  grid-template-areas:
+    'topbar topbar'
+    'sidebar page';
+  margin-bottom: 0;
+  font-family: sans-serif;
+
+  .page{
+    grid-area: page;
+    background-color: #F9F9F9;
+  }
+}

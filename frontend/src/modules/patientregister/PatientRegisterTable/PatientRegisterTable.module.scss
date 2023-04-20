@@ -1,0 +1,49 @@
+.table {
+
+  .header {
+    border-bottom: 1px solid lightgray;
+
+    .headerItem {
+      padding: 1rem 0 1rem 1rem;
+      font-weight: lighter;
+      font-size: .85rem;
+      color: grey;
+    }
+  }
+
+  .rowData {
+    padding: 1rem 0 1rem 1rem;
+
+    .recovered {
+      background-color: #B3E3C7;
+      color: #27AE60;
+      width: 11rem;
+      display: flex;
+      justify-content: center;
+      border-radius: 1rem;
+
+    }
+
+    .onTreatment {
+      background-color: #F8C4C4;
+      color: #EB5757;
+      width: 11rem;
+      display: flex;
+      justify-content: center;
+      border-radius: 1rem;
+    }
+
+    .awaitingSurgery {
+      background-color: #B6D3F9;
+      color: #2F80ED;
+      width: 11rem;
+      display: flex;
+      justify-content: center;
+      border-radius: 1rem;
+    }
+
+    .options{
+      color: grey;
+    }
+  }
+}

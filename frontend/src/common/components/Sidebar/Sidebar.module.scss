@@ -1,0 +1,23 @@
+.sidebar {
+  grid-area: sidebar;
+  border-right: 1px solid lightgray;
+  color: grey;
+
+  .section{
+    height: 0;
+
+    .header{
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+      font-size: 0.6875rem;
+    }
+
+    .divider {
+      margin-left: 2.75rem;
+      padding-top: 2rem;
+      border-bottom: 1px solid lightgray;
+      width: 9rem;
+    }
+  }
+}

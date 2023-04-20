@@ -1,0 +1,5 @@
+export { default as Topbar } from './Topbar/Topbar'
+export { default as Sidebar } from './Sidebar/Sidebar'
+export {default as EPGLogo } from './CompanyLogo/CompanyLogo'
+export { default as Actionbar } from './Actionbar/Actionbar'
+export { default as PatientRegisterDemoView } from './DemoView/PatientRegisterDemoView'

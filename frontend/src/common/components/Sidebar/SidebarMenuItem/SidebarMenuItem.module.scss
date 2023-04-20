@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  margin-left: 1.5rem;
+  align-items: center;
+  color: grey;
+  text-decoration: none;
+  margin-top: 1rem;
+
+  .icon {
+    font-size: 1.25rem;
+  }
+
+  .label{
+    margin-left: 1rem;
+    font-size: .85rem;
+  }
+
+  &:hover {
+    color: black;
+  }
+
+  &.selected {
+    color: #7119F4;
+  }
+}

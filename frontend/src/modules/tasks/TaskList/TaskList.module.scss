@@ -1,0 +1,25 @@
+.taskList {
+  margin-right: 1rem;
+
+  .list {
+    background-color: white;
+
+    .header {
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      align-items: center;
+      height: 3.5rem;
+      padding-left: 1rem;
+      font-size: 1.25rem;
+      font-weight: bold;
+
+      .star {
+        color: gold;
+        font-size: 1.5rem;
+        padding-bottom: .2rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+
+}
